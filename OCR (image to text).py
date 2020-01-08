@@ -11,10 +11,10 @@ from PIL import Image
 import pytesseract
 # importing pytesseract module for calling of image_to_string function
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 # If getting errors, add the above command with path of the tesseract executable here.(It would be quite similar to above path)
 
-file_path = r'images\test.png'
+file_path = 'Sample_Images/test.png'
 # location of the sample image
 
 text = pytesseract.image_to_string(Image.open(file_path))
