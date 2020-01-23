@@ -21,6 +21,7 @@ def ocr_space_file(filename, overlay=False, api_key='get_it_from_"ocr.space"', l
                                        default- False
                             6. OCREngine -  1. fast but less accuracy
                                             2. slow but good accuracy
+            (MORE DETAILS- https://ocr.space/ocrapi )
 
     Return : string of response data in json format
     '''
